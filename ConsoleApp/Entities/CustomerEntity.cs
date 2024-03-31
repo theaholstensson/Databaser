@@ -20,7 +20,7 @@ namespace ConsoleApp.Entities
         public RoleEntity Role { get; set; } = null!;
 
 
-        public int AdressId { get; set; }
+        public int AddressId { get; set; }
         public AddressEntity Address { get; set; } = null!;
     }
 }
