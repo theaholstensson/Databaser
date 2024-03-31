@@ -7,11 +7,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp.Entities
 {
-    internal class CategoryEntity
+    internal class RoleEntity
     {
         [Key]
         public int Id { get; set; }
-        public string CategoryName { get; set; } = null!;
-
+        public string RoleName { get; set; } = null!;
     }
 }
